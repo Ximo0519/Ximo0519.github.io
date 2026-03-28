@@ -1385,7 +1385,7 @@ pre code {
     vertical-align: middle;
   }
   .links-of-author a::before {
-    background: #abcfff;
+    background: #85ffbf;
     display: inline-block;
     margin-right: 3px;
     transform: translateY(-2px);
@@ -3008,4 +3008,10 @@ header.header {
   .comments {
     padding: 10px 12px;
   }
+}
+.post-body img {
+/* 强制覆盖 HTML 标签中的 height 属性 */
+  height: auto !important;
+/* 确保宽度不会溢出容器 */
+  max-width: 100%;
 }
